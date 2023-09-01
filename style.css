@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  padding: 50px;
+  background-color: #ded0e0;
+}
+
+.left-side {
+  flex: 1;
+  width: 80%;
+  padding-right: 20px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+.project {
+  display: flex;
+  font-size: 20px;
+}
+
+.rating {
+  color: rgb(222, 204, 43);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  width: 250px;
+  border: none;
+  border-radius: 25px; /* Half of the height for an oval shape */
+  cursor: pointer;
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* New styles */
+.testimonials {
+  background-color: #b4dbfd;
+  padding: 20px;
+  width: 210px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.heading {
+  font-weight: bold !important;
+  font-size: 50px;
+}
+.heading span {
+  color: #007bff; /* Blue color for "Customers" */
+}
+.project span{
+  color: #007bff;
+  font-weight: bold;
+}
+
+.blue-line {
+  display: inline-block;
+  width: 50%;
+  height: 5px;
+  background-color: #007bff;
+  margin-top: 10px;
+}
+.vertical-line {
+  width: 1px;
+  height: 80px; /* Adjust height as needed */
+  background-color: #02060a;
+  margin-left: 10px; /* Adjust spacing as needed */
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+.whatsapp-button {
+  position: absolute;
+  bottom: 35px;
+  right: -8%;
+
+  transform: translateX(-50%);
+  width: 250px;
+  height: 50px;
+  background-color: #25d366;
+  border: none;
+  border-radius: 25px; /* Half of the height for an oval shape */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  z-index: 1;
+}
+.review{
+  color: #02060a;
+}
+
+.whatsapp-logo {
+  height: 50px;
+}
